@@ -35,23 +35,17 @@ Before you begin, make sure you have the following:
 
 1. Open VirtualBox and click **New**.
 2. Set the following:
-   - **Name:** `LAMP-Server` (or any name you prefer)
-   - **Type:** Linux
-   - **Version:** Ubuntu (64-bit)
-3. Allocate **at least 2048 MB (2 GB)** of RAM.
+   - **VM Name:** `LAMP-Server` (or any name you prefer)
+   - **ISO Image:** Select the Ubuntu ISO file you downloaded.
+   - **OS:** Linux
+   - **OS Version:** Ubuntu (64-bit)
+   - **Proceed with Unattended Installation:** NOT checked.
+3. Allocate **at least 2048 MB (2 GB)** of RAM and 2 CPUs.
 4. Create a new virtual hard disk:
    - Type: **VDI (VirtualBox Disk Image)**
    - Storage: **Dynamically allocated**
    - Size: **20 GB** or more
-5. Click **Create**.
-
-### Attach the Ubuntu ISO
-
-1. Select your new VM and click **Settings → Storage**.
-2. Under **Controller: IDE**, click the empty optical drive.
-3. Click the disk icon on the right and choose **Choose a disk file...**.
-4. Select your downloaded Ubuntu Server `.iso` file.
-5. Click **OK**.
+5. Click **Finish**.
 
 ---
 
